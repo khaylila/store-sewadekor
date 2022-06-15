@@ -67,7 +67,7 @@ const data = [
 
 const ProductLine = (props)=>{
     return(
-        <div className={props.class}>
+        <div className={props.kelas}>
             <div className="px-2 flex justify-between items-center">
                 <div className="text-base font-bold text-slate-600">
                     {props.name}

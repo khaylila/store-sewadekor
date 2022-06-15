@@ -7,6 +7,7 @@ import "../index.css";
 import '@splidejs/react-splide/css';
 import HeaderDetail from "../component/header/HeaderDetail";
 import ProductLine from "../component/ProductLine"
+import SectionShare from "../component/detailPage/SectionShare";
 
 class DetailPage extends React.Component{
     render(){
@@ -175,7 +176,7 @@ class DetailPage extends React.Component{
                                 </div>
                                 <span><Link to="#" className="text-xs text-blue-500 hover:text-blue-700">Selengkapnya</Link></span>
                             </div>
-                            <ProductLine class={"bg-white p-4 mt-2"} name={"Lainnya di sini"}/>
+                            <ProductLine kelas={"bg-white p-4 mt-2"} name={"Lainnya di sini"}/>
                             <div className="bg-white p-4 mt-2">
                                 <div className="flex justify-between">
                                     <h1 className="font-bold">Ulasan pembeli</h1>
@@ -275,21 +276,13 @@ class DetailPage extends React.Component{
                                     <a href="#" className="font-bold text-xs text-blue-500 hover:text-blue-700">Lihat Semua (25)</a>
                                 </div>
                             </div>
-                            <ProductLine class={"bg-white p-4 mt-2"} name={"Produk terkait"}/>
-                            <ProductLine class={"bg-white p-4 mt-2"} name={"Rekomendasi buat kamu"}/>
+                            <ProductLine kelas={"bg-white p-4 mt-2"} name={"Produk terkait"}/>
+                            <ProductLine kelas={"bg-white p-4 mt-2"} name={"Rekomendasi buat kamu"}/>
                         </div>
                     </section>
                     <Footer/>
                 </div>
-                <div className="w-full md:w-1/2 lg:w-1/3 h-screen bg-black z-10 fixed top-0 left-0 md:left-1/4 lg:left-1/3 opacity-30"></div>
-                <section id="share" className="w-full md:w-1/2 lg:w-1/3 h-5/6 fixed bottom-0 left-0 md:left-1/4 lg:left-1/3 bg-white p-4 rounded-t-lg z-20">
-                    <div className="flex flex-nowrap">
-                        <button className="w-5">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-                        </button>
-                        <h1 className="text-2xl font-bold ml-2">Bagikan produk ini</h1>
-                    </div>
-                </section>
+                <SectionShare/>
             </Fragment>
         );
     }

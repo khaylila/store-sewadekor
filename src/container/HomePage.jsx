@@ -78,12 +78,12 @@ class HomePage extends React.Component{
                                     </Link>
                                 </div>
                             </div>
-                            <ProductLine class={"my-5"} name="Terakhir Dipesan"/>
-                            <ProductLine class={"my-5"} name="Terakhir Dipesan"/>
-                            <ProductLine class={"my-5"} name="Terakhir Dipesan"/>
-                            <ProductLine class={"my-5"} name="Terakhir Dipesan"/>
-                            <ProductLine class={"my-5"} name="Terakhir Dipesan"/>
-                            <ProductLine class={"my-5"} name="Terakhir Dipesan"/>
+                            <ProductLine kelas={"my-5"} name="Terakhir Dipesan"/>
+                            <ProductLine kelas={"my-5"} name="Terakhir Dipesan"/>
+                            <ProductLine kelas={"my-5"} name="Terakhir Dipesan"/>
+                            <ProductLine kelas={"my-5"} name="Terakhir Dipesan"/>
+                            <ProductLine kelas={"my-5"} name="Terakhir Dipesan"/>
+                            <ProductLine kelas={"my-5"} name="Terakhir Dipesan"/>
                         </div>
                     </section>
                 <Footer/>
